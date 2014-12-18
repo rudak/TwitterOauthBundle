@@ -1,7 +1,7 @@
 {
-    "name": "rudak/Twitter-oauth-bundle",
+    "name": "rudak/twitter-oauth-bundle",
     "type": "symfony-bundle",
-    "description": "Twitter Oauthentication Bundle for Symfony",
+    "description": "Twitter O-authentication Bundle for Symfony",
     "keywords": ["twitter","oauth"],
     "license": "GPL-3.0+",
     "authors": [
