@@ -1,26 +1,29 @@
 {
-    "name": "rudak/twitter-oauth-bundle",
-    "type": "symfony-bundle",
-    "description": "Twitter O-authentication Bundle for Symfony",
-    "keywords": ["twitter","oauth"],
-    "license": "GPL-3.0+",
-    "authors": [
-        {
-            "name": "Abraham Williams",
-            "email": "abraham@abrah.am",
-            "homepage": "https://abrah.am"
-        },    
-        {
-            "name": "Kadur Arnaud",
-            "email": "contact@kadur-arnaud.fr",
-            "homepage": "http://kadur-arnaud.fr"
-        }
-    ],
-    "autoload": {
-        "psr-0": {
-            "Rudak\\TwitterOauthBundle": ""
-        }
+  "name": "rudak/twitter-oauth-bundle",
+  "type": "symfony-bundle",
+  "description": "Twitter O-authentication Bundle for Symfony",
+  "keywords": [
+    "twitter",
+    "oauth"
+  ],
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Abraham Williams",
+      "email": "abraham@abrah.am",
+      "homepage": "https://abrah.am"
     },
-    "target-dir": "Rudak\\TwitterOauthBundle",
-    "minimum-stability": "stable"
+    {
+      "name": "Kadur Arnaud",
+      "email": "contact@kadur-arnaud.fr",
+      "homepage": "http://kadur-arnaud.fr"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Rudak\\TwitterOauthBundle": ""
+    }
+  },
+  "target-dir": "Rudak\\TwitterOauthBundle",
+  "minimum-stability": "stable"
 }
