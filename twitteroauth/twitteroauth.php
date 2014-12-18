@@ -1,13 +1,8 @@
 <?php
+namespace Rudak\TwitterOauthBundle\TwitterOauth;
 
-/*
- * Abraham Williams (abraham@abrah.am) http://abrah.am
- *
- * The first PHP Library to support OAuth for Twitter's REST API.
- */
+use Rudak\TwitterOauthBundle\TwitterOauth\OAuthSignatureMethod_RSA_SHA1;
 
-/* Load OAuth lib. You can find it at http://oauth.net */
-require_once('OAuth.php');
 
 /**
  * Twitter OAuth class
