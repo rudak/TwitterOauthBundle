@@ -24,6 +24,6 @@
       "Rudak\\TwitterOauthBundle": ""
     }
   },
-  "target-dir": "Rudak\\TwitterOauthBundle",
+  "target-dir": "Rudak/TwitterOauthBundle",
   "minimum-stability": "stable"
 }
