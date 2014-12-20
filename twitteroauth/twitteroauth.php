@@ -1,4 +1,5 @@
 <?php
+
 namespace Rudak\TwitterOauthBundle\TwitterOauth;
 
 use Rudak\TwitterOauthBundle\TwitterOauth\OAuthSignatureMethod_RSA_SHA1;
@@ -9,29 +10,19 @@ use Rudak\TwitterOauthBundle\TwitterOauth\OAuthSignatureMethod_RSA_SHA1;
  */
 class TwitterOAuth
 {
-    /* Contains the last HTTP status code returned. */
-    public $http_code;
-    /* Contains the last API call. */
-    public $url;
-    /* Set up the API root URL. */
-    public $host = "https://api.twitter.com/1.1/";
-    /* Set timeout default. */
-    public $timeout = 30;
-    /* Set connect timeout. */
-    public $connecttimeout = 30;
-    /* Verify SSL Cert. */
-    public $ssl_verifypeer = FALSE;
-    /* Respons format. */
-    public $format = 'json';
-    /* Decode returned json data. */
-    public $decode_json = TRUE;
-    /* Contains the last HTTP headers returned. */
-    public $http_info;
-    /* Set the useragnet. */
-    public $useragent = 'TwitterOAuth v0.2.0-beta2';
-    /* Immediately retry the API call if the response was not successful. */
-    //public $retry = TRUE;
 
+    public $http_code; // Contains the last HTTP status code returned.
+    public $url;// Contains the last API call.
+    public $host = "https://api.twitter.com/1.1/";// Set up the API root URL.
+    public $timeout = 30;// Set timeout default.
+    public $connecttimeout = 30;// Set connect timeout.
+    public $ssl_verifypeer = FALSE;   // Verify SSL Cert.
+    public $format = 'json'; // Respons format.
+    public $decode_json = TRUE;// Decode returned json data.
+    public $http_info;// Contains the last HTTP headers returned.
+    public $useragent = 'TwitterOAuth v0.2.0-beta2';
+    // public $retry = TRUE;
+    public $sha1_method;
 
     /**
      * Set API URLS
